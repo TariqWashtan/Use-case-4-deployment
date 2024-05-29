@@ -4,8 +4,8 @@ from pydantic import BaseModel
 
 
 
-model = joblib.load('Models/knn_model.joblib')
-scaler = joblib.load('Models/scaler.joblib')
+model = joblib.load('models/knn_model.joblib')
+scaler = joblib.load('models/scaler.joblib')
 
 
 app = FastAPI()
